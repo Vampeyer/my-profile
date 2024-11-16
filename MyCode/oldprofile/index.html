@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>My Folio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="./TechSportLogo.png" rel="icon">
+    <link href="./TechSportLogo.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/css/bottystrapper.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/button.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/morecss.css">
+    <!-- =======================================================
+  * Template Name: DevFolio
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+</head>
+
+
+
+<body>
+    <script></script>
+    <!-- ======= Header ======= -->
+    <header id="header" class="navbar">
+
+
+        <!-- <h1 class="logo"><a href="index.html">MyFolio</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav style="" id="navbar" class=" toggleButton  dropstart navbarDropdownMain dropleft ">
+            <ul>
+
+                <li class="dropdown   title-left"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-left"></i></a>
+                    <ul id="dropLeft" class="dropleft">
+                        <li class='dropdownList'><a href="./Resume-Dark.docx">Resume</a></li>
+
+                        <li class='dropdownList'><a href="./portfolio-details-certifications.html"> Certifications </a></li>
+
+                        <li class='dropdownList'><a href="https://vampyre.42web.io/?i=1#"> Profile Page # 2</a></li>
+
+                        <li class='dropdownList'><a href="portfolio-details-cybersec.html">Downloads <br> and <br> Security Demo</a></li>
+
+                        <li class='dropdownList'> <a href="https://github.com/Vampeyer">Downloads- at github</a></li>
+
+
+
+
+                    </ul>
+                </li>
+
+
+
+
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active " href="#about">About</a></li>
+                <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                <li><a class="nav-link scrollto " href="#work">Work</a></li>
+                <!-- <li><a class="nav-link scrollto " href="#blog">Blog</a></li> -->
+
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+
+
+
+            </ul>
+
+
+            <div style="    background-color: black; border-radius: 50%; " id="psIconsClicker" onclick="clickFunction()" class=" bi mobile-nav-toggle   mainButtonIcon">
+
+
+
+
+                <img id="circle" style="z-index: 99;  bottom: 20px;  display: none; " class="bi mobile-nav-toggle   " src="./assets/img/close-X-svgrepo-com.png" alt="PS Circle">
+
+
+                <img class="  mobile-nav-toggle  " style="z-index: 99; top:1px " id="XButton" src="./assets/img/circle-svgrepo-com.png" alt="PS X Button">
+
+
+        </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+
+
+
+
+
+    <div onload="playVideo()">
+
+        <iframe id="video-container" class="justTheVideo" controls autoplay width="100%" height="420" src="https://www.youtube.com/embed/v_sCiYZWaXw" frameborder="0" allow="accelerometer" autoplay; encrypted-media; gyroscope; picture-in-picture allowfullscreen></iframe>
+
+        <script>
+            async function playVideo() {
+                var video = document.getElementById("video-container");
+                video.src = await "https://www.youtube.com/embed/v_sCiYZWaXw?autoplay=1";
+            }
+        </script>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======= Hro Section ======= -->
+    <div id="hero" class="hero route ">
+        <div class="overlay-intro"></div>
+        <div class="hero-content display-table bg-image" style="background-image: url(assets/img/scificity.jpg)">
+            <div class="table-cell">
+                <div class="container">
+                    <!--<p class="display-6 color-d">Hello, world!</p>-->
+                    <div id="headerBgText">
+
+                        <h1 style="font-family: gamon, Arial, Helvetica, sans-serif; color: rgb(96, 204, 231); text-shadow:rgb(0, 0, 0) 2px 2px 2px ; 
+                 font-size: 2rem; " class="hero-title mb-4 data-typed-items= " I am <br>" Jacob Thompson++"
+                    </div>
+                    </h1>
+
+                    <p style=" font-size: 1.5rem; font-family: gamon, Arial, Helvetica, sans-serif; color: rgb(96, 204, 231); text-shadow:rgb(0, 0, 0) 2px 2px 2px ;  " class="hero-subtitle"> A <span class="typed   " data-typed-items="Software   Engineer , Developer,  Ux Ui Desiigner , Security Professional , Technical resolution provider">
+                        </span> <span> for you or your business. </span>
+
+                    </p>
+                </div>
+                <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+            </div>
+        </div>
+    </div>
+    </div><!-- End Hero Section -->
+
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about-mf sect-pt4 route ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-md-8 ">
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="about-img">
+
+                                            <div class="title-box-2 ">
+                                                <h5 class="title-left ">
+                                                    About me
+                                                </h5>
+                                            </div>
+                                            <div class="imgAboutMeOuter">
+                                                <img  src="assets/img/Onecooldude.jpg" id="" id="imgAboutMe" class="rounded-circle  imgAboutMe img-fluid rounded b-shadow-a" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 ">
+                                        <div class="about-info">
+                                            <p><span class="title-s">Name: </span> <span>Jacob Thompson</span></p>
+                                            <p><span class="title-s">Profile: </span><span> <a href="https://github.com/Vampeyer">https://github.com/Vampeyer</a></p></span>
+                                            <p><span class="title-s">Email: </span><span> <a href="mailto:jthompsonprofessional0376@gmail.com">jthompsonprofessional <br> 0376@gmail.com</span> </a> </p>
+                                            <p><span class="title-s">Phone: </span><a href="tel:502-302-2840"> <span>502-302-2840</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div></div>
+                                <div class="skill-mf">
+                                    <p class="title-s">Skill</p>
+                                    <div id="progress-bar">
+                                        <span>HTML</span> <span class="pull-right">100%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <span>CSS3</span> <span class="pull-right">95%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>JavaScript</span> <span class="pull-right">90%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>PHP</span> <span class="pull-right">65%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>Node</span> <span class="pull-right">85%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>SQL</span> <span class="pull-right">75%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>Python</span> <span class="pull-right">85%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+
+
+                                        <span>Git , Github , Gitlab & VSCode</span> <span class="pull-right">90%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>Electron & PWA </span> <span class="pull-right">75%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <span>NPM & NPM Modules </span> <span class="pull-right">75%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <span>Ui </span> <span class="pull-right">95%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
+
+                                
+                                <span>Ux </span> <span class="pull-right">100%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="about-me  ">
+
+                                <p class="lead" style="font-size: 1.2em;">
+                                    There is more to UI, than pretty colors with fewer needed links everywhere, or especially missing links. </p>
+        <p class="lead" style="font-size: 1.2em;">
+            There is more to UX, than what they all teach you. It's all about the full experience. It's all about easability, intuitive design, and accessibility with functionality.
+
+                                <p class="lead" style="font-size: 1.2em;">
+                                    If you are here for the technical realm of things, I have 10+ years of web development experience. Expertise with LAMP, WAMP, BAMP, MERN stack development, both cloud and locally hosted. Trained on technologies, including but not limited to React, Express, Lodash, EJS, XJS, and XHTML with XSS prevention techniques. Electron, Electron Builder, Bootstrap, Vite, Vue, Parcel, and several other software engineering tools, including tools for both packaging software, engineering software, and utilizing software in software development, such as pip for Python, Choco for Windows, Brew for Mac, and various Linux installation modules. My specialty is portable offline web applications, to which I can package a website into a PWA, APK file, .exe file, .msi file, or any other types of multiple installable formats.
+                                </p>
+                                <p class="lead" style="font-size: 1.2em;">
+                                    If you are further curious about security, I can provide services that are authorized and certified by the NSA, through UofL, for professional cybersecurity evaluation and remediation, during trying times. Trained in multiple technological arts, including but not limited to artificial intelligence, coding and Python, cryptography and cryptology, Database Management services, I.T. Basics, Networking Fundamentals, Privacy and legal ethics, and Security principles and fundamentals.
+                                    <p class="lead" style="font-size: 1.2em;">
+
+                                        ✨ ✦ I am easy to communicate with, friendly, and a useful tool for tasks. Today, I also try to focus more on the people-oriented goals. ✦ ✨
+                                    </p>
+                                    <p style="color:white;" > &#x2600; &#x263a;  &#9801;  &#9840;  &#9847; &#9882;    &#9911;  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class=" backgroundForServices   services-mf pt-5 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box ">
+                            <h3 class="title-a">
+                                Services
+                            </h3>
+                            <div style="color: aliceblue; text-shadow: 1px 1px .5px rgb(101, 144, 36); ">
+                                <ul>
+                                    <li>
+                                        - Fully managed I.T. solutions , with individual and infrastructure support.
+                                    </li>
+                                    <li>
+                                        - All services come with a 100% resolution ensurance policy , to ensure satisfaction of services -
+                                    </li>
+
+                                    <li>
+                                        - To place a request , or learn about consultation options,
+                                        visit -
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <a href="https://techsport.vampyre.42web.io/indextechservice.html?i=1" style="color:aquamarine">Techsport</a>
+                        </div>
+
+                    </div>
+
+
+                    <a class="" style="color: rgb(45, 243, 177);" href="https://techsport.vampyre.42web.io/indextechservice.html?i=1">
+
+                        <div class="techsportLogo "> <img src="/TechSportLogo.png" style="width: auto; margin: 5px; padding: 5px; " alt="">
+                            <div class="logoContainer">
+
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div style="background-image: url(assets/img/kat.jpg); text-shadow:black 2px 2px 2px ; " class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Web Design</h2>
+                            <p class="s-description  " >
+                                From WordPress to a professional customized and bootstrapped website for you or your business. Including React and Three.js, a functional design layout, with specific needs met, should always be curated for the best results.
+
+                                Creating a professional customized and bootstrapped website, starting with Bootstrap, offers a solid foundation for your online presence. By incorporating technologies like React and Three.js, you can enhance the functionality and design of your website. Ensuring a functional layout that meets your specific needs is essential for achieving the best results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Web Development</h2>
+                            <p class="s-description ">
+                                Fullstack engineer anything you may need , from sending a form
+                                to a private email server , there are many options depending on your needs.
+                                After development , you must find and purchase a hostname , from a domain registrar , for our Webmaster Services to set it up live.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Software Engineering </h2>
+                            <p class="s-description ">
+                                Different technologies including IoT , for things like international shipping , and embedded software. Exposure with intel .HEX formats and some assembly level compilation.
+                                As well as other embedded technologies / and - or proprietary software.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Cyber security Basic Services</h2>
+                            <p class="s-description text-center">
+                                - Recommended for smaller business's -
+
+                                Including but not limeted to , Hardened security auditing
+                                and defensive implementation techniques , IDS and IPS , intrusion
+                                detection and prevention systems respectively , Firewalls ,Secure Anti-viral
+                                updates and in depth analyzation , and Network health monitoring.
+
+
+                                As well as the complete and entire expungement of any software that our security is not 100% in control of.
+                                It is likely that your systems are quite sick , let us consultate privately about that.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title"> Cyber security Advanced Services </h2>
+                            <p class="s-description text-center">
+                                - Recommended for larger business's -
+
+
+                                Military grade encyption and implementation services available.
+                                Red and Blue teams compromise a purple approach that is transparent in all possible pain points , to ensure complete defensive measures and reliability to systems.
+
+                                Training AI against a GAN AI , for AI training and haerdening to protect from future capabilities.
+                                In the quantum computing sector , we have quantum computing resistant algorithims specifically for that.
+
+                                The highest levels of security , to prepare for future attacks will require
+                                custom , quantum computational power and AI hardening techniques , with a high preference
+                                to self - made , self managed software ,in the companies control.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-box">
+                        <div class="service-ico">
+                            <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Graphic Design / Marketing Services</h2>
+                            <p class="s-description text-center">
+
+                                I am not a website designer , I am a website ARTIST.
+
+                                10 + Years of calling to action on the most prestigious and economically appealing projects , all I need to know is , what do you want to design ?
+                                Most designs are either from a design, created around a web page , or multiple web page layout , with messages , components or tools within.
+                                Marketing is focused here , as well as in
+                                larger advertising agencies. Graphic design can range from React components to a three.js blender import. It all depends on what Is.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section><!-- End Services Section -->
+
+        <!-- ======= Counter Section ======= -->
+
+
+
+
+        <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+
+
+
+
+            <div class="overlay-mf"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-check"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
+                                <span class="counter-text">WORKS COMPLETED</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
+                                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-people"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
+                                <span class="counter-text">TOTAL CLIENTS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-award"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
+                                <span class="counter-text">AWARD's WON</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Counter Section -->
+
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="work" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Portfolio
+                            </h3>
+                            <p class="subtitle-a">
+                                A list of some of my recent published work.
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/ReactToDoList.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/ReactToDoList.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">React, To-DO List , Multiplatform download</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-reacttodolist.html"> <span class="bi bi-circle"> </a>
+
+
+
+
+                                            </span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--  /////////////////////////////////////////////////////-->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/clockimage.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/clockimage.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">PWA-Clock - HTML , CSS , JS </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-pwa-clock.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/techsport1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/techsport1.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title"> TechSport I.T. Support Services </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-techsport.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/kwd2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/kwd2.png" alt="techsportVideo" class="img-fluid">
+
+
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Kentuckian Wildlife Department</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design / Wordpress</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-kwd.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/jakebot1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/jakebot1.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Jakebot</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design / Three.js </span> <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-jakebot.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/cyberseccitrix1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/cyberseccitrix1.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Cybersec Citrix Exploitation Demo: </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Cybersecurity</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-cybersec.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><!-- End Portfolio Section -->
+
+
+        <!-- ////////////////////////////////////////////////////////ADDITIONAL PORTFOLIO SECTION -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="work" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Portfolio
+                            </h3>
+                            <p class="subtitle-a">
+                                A list of some of my recent published work.
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/codehouse1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/codehouse1.png" alt="the codehouse" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Code House , for code louisville</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-codehouse.html"> <span class="bi bi-plus-circle">
+
+
+                                                </span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--  /////////////////////////////////////////////////////-->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/filepal1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/filePal.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">File Pal </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-filepal.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/codehouse1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/JavaPix/Screenshot (910).png" alt="the codehouse" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title"> ATM in Java </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory"> Programming / Engineering
+                                            </span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-ATM-Java.html"> <span class="bi bi-plus-circle">
+
+
+                                                </span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!--  /////////////////////////////////////////////////////-->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/streampalpix/Screenshot (911).png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/streampalpix/Screenshot (911).png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Stream Pal </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-streampal.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- ////////////////////////////////////////////////// -->
+
+
+                    <!--  /////////////////////////////////////////////////////-->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/csharp3.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/csharp3.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">C # Console App </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-Csharp-console.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- ////////////////////////////////////////////////// -->
+
+                    <!--  /////////////////////////////////////////////////////-->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/Djangolib1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/Djangolib1.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title"> Django / Python / Fullstack LocalLibrary from MDN </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering / Django / Python</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-Django-LocalLibrary.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- ////////////////////////////////////////////////// -->
+
+
+                    <!--  /////////////////////////////////////////////////////-->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/recipies.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/recipies.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title"> Django / Python / Fullstack Recipies - </h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Engineering / Django / Python</span> / <span class="w-date">18 Sep. 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details-Django-recipies.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!--    
+
+
+
+
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/techsport1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/techsport1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title"> TechSport I.T. Support Services </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details-techsport.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/kwd2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/kwd2.png" alt="techsportVideo" class="img-fluid">
+             
+
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Kentuckian Wildlife Department</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design / Wordpress</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details-kwd.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/jakebot1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/jakebot1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Jakebot</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / Three.js <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details-jakebot.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/cyberseccitrix1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/cyberseccitrix1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Cybersec Citrix Exploitation Demo: </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Cybersecurity</span> / <span class="w-date">18 Sep. 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details-cybersec.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+                    <!-- ======= Testimonials Section ======= -->
+                    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+                        <div class=" testimonialOverlay overlay-mf">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                                            <div class="swiper-wrapper">
+
+                                                <div class="  swiper-slide">
+                                                    <div class="testimonial-box">
+                                                        <div class=" author-test">
+                                                            <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                                                            <span class="author" id="textTarget">Xavi Alonso - TechSport </span>
+                                                        </div>
+                                                        <div class="content-test">
+                                                            <p class="description ">
+                                                                You can always trust TechSport services. Several times , on consistent basis
+                                                                we always manage to satisfy our clients needs , with positive results.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- End testimonial item -->
+
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-box">
+                                                        <div class="author-test">
+                                                            <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                                                            <span class="author" id="textTarget2">Marta Socrate - Client </span>
+                                                        </div>
+                                                        <div class="content-test">
+                                                            <p class="description lead">
+                                                                I was self-conscious , and aggravated by my device. TechSport services helped me with critical basic features , I had no idea how to use. I am so grateful for them !
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- End testimonial item -->
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+          
+        </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Testimonials Section -->
+
+                    <!-- ======= Blog Section ======= -->
+                    <!-- <section id="blog" class="blog-mf sect-pt4 route">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="title-box text-center">
+                                        <h3 class="title-a">
+                                            Blog
+                                        </h3>
+                                        <p class="subtitle-a">
+                                            Information Technology Blog
+                                        </p>
+                                        <div class="line-mf"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card card-blog">
+                                        <div class="card-img">
+                                            <a href="blog-single-cybersec.html"><img src="assets/img/litupcpu.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-category-box">
+                                                <div class="card-category">
+                                                    <h6 class="category">CyberSec</h6>
+                                                </div>
+                                            </div>
+                                            <h3 class="card-title"><a href="blog-single-cybersec.html">Cybersecurity World Wide Needs</a></h3>
+                                            <p class="card-description">
+                                                "A blog written by an employee of mine , on the current state of cybersecurity in world requirements. "
+                                                Containing a summarized , Cybersecurity commandments and guidelines.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="post-author">
+                                                <a href="#">
+                                                    <img src="assets/img/litupcpu.jpg" alt="" class="avatar rounded-circle">
+                                                    <span class="author">Morgan Freeman</span>
+                                                </a>
+                                            </div>
+                                            <div class="post-date">
+                                                <span class="bi bi-clock"></span> 10 min
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card card-blog">
+                                        <div class="card-img">
+                                            <a href="blog-single-4thamend.html"><img src="assets/img/4thamendment.png" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-category-box">
+                                                <div class="card-category">
+                                                    <h6 class="category">Privacy</h6>
+                                                </div>
+                                            </div>
+                                            <h3 class="card-title"><a href="blog-single-4thamend.html"> Privacy and your 4th amendment rights</a></h3>
+                                            <p class="card-description">
+                                                Read about how the constitution ,insures and grants all american citizens , full access too these rights , al the times in all devices , by your government ,
+                                                if you are an american citizen.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="post-author">
+                                                <a href="#">
+                                                    <img src="assets/img/4thamendment.png" alt="" class="avatar rounded-circle">
+                                                    <span class="author">Privacy and your 4th</span>
+                                                </a>
+                                            </div>
+                                            <div class="post-date">
+                                                <span class="bi bi-clock"></span> 10 min
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card card-blog">
+                                        <div class="card-img">
+                                            <a href="blog-single-rabbithole.html"><img src="assets/img/rabbithole.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-category-box">
+                                                <div class="card-category">
+                                                    <h6 class="category">Cybersec and Privacy </h6>
+                                                </div>
+                                            </div>
+                                            <h3 class="card-title"><a href="blog-single-rabbithole.html"> See and hear the truth on Cybersecurity and how it relates too privacy and proprietary software </a></h3>
+                                            <p class="card-description">
+                                                With links and details too privacy and ethical concerns.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="post-author">
+                                                <a href="#">
+                                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                                    <span class="author">Morgan Freeman</span>
+                                                </a>
+                                            </div>
+                                            <div class="post-date">
+                                                <span class="bi bi-clock"></span> 10 min
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>End Blog Section -->
+
+    </main><!-- End #main -->
+
+
+    <!-- ======= Footer ======= -->
+    <footer class="footerContainer" style="background-image: url(./assets/img/litupcpu.jpg);">
+        <div class="container">
+
+
+
+            <!-- ======= Contact Section ======= -->
+            <section id="contact" class=" contactFormContainer paralax-mf footer-paralax bg-image sect-mt4 route">
+                <div class="overlay-mf"></div>
+                <div class="container  ">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <div class="contact-mf ">
+                                <div id="contact" class="box-shadow-full" style="box-shadow: 10px 10px 15px 20px greenyellow;">
+                                    <div class="row footerBorders">
+                                        <div class="col-md-6  footerBorders">
+                                            <div class="title-box-2">
+                                                <h5 class="title-left">
+                                                    Contact us
+                                                </h5>
+                                            </div>
+                                            <div>
+
+                                                <form class="contactForm" id="contactform" action="https://formsubmit.io/send/techsport1024@protonmail.com" name="EmalForm" role="form" method="post" enctype="multipart/form-data">
+
+                                                    <div class="row">
+                                                        <div class="col-md-12 mb-3">
+                                                            <div class="form-group">
+                                                                <input type="text" name="name" class="form-control footerBorders" id="name" placeholder="Your Name" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 mb-3">
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control footerBorders" name="email" id="email" placeholder="Your Email" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="number" class="form-control footerBorders" name="phone" id="phone" placeholder="Your Phone Number - Optional" style="margin-top: 1rem ;" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 mb-3">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control footerBorders" name="subject" id="subject" placeholder="Subject" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea class="form-control  footerBorders" name="message" rows="5" placeholder="Message" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 text-center my-3">
+                                                            <div class="loading">If a you send us a message. you will hear from us soon. If you schedule an appointment , we will speak with you then.
+
+                                                                Thank you. </div>
+
+
+
+
+
+                                                            <div class="error-message"></div>
+                                                            <div class="sent-message"></div>
+                                                        </div>
+                                                        <div class="col-md-12 text-center">
+                                                            <button type="submit" value="Submit" class="button button-a button-big button-rouded">Send Message</button>
+                                                        </div>
+
+
+
+
+
+                                                        <span style="background-color: blue; max-height: .05px; padding-bottom: .5px; "></span>
+
+                                                        <h6> Schedule a meeting below </h6>
+
+                                                        <div style="background-color: blue; max-height: .05px; padding-bottom: .5px; "></div>
+                                                        <!--    <a href="" alt="Calendly calender link">  <img  src="/assets/img/calendar-icon-png-2.jpg" alt="calendar icon ">  </a>   -->
+
+                                                        <iframe src="https://calendly.com/techsport1024/30min?month=2023-11" frameborder="0" style="min-height: 400px;"></iframe>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                        
+                                        <div class="col-md-6">
+                                            <div class="title-box-2 pt-4 pt-md-0">
+                                                <h5 class="title-left">
+                                                    Get in Touch
+                                                </h5>
+                                            </div>
+                                            <div class="more-info">
+                                                <p style="color: black;" class="">
+                                                    Are you an employer here looking for a quality employee ? Ask about contracted or 1099 services is needed.
+                                                    Looking for software development ? Or just quality consultation ? Visit our professional services page at TechSport , for any of your technical needs. Call today , and clients recieve a free 5 minute consultation , on whatever your needs may be ! - Serious Inquiries Only Please , but we take calls and messages of any kind. -
+                                                </p>
+
+                                                <div>
+                                                    <p style="font-style: italic; color: black; ">
+                                                        We look forward to satisfying your clients , or seeing through your next project today !
+                                                    </p>
+                                                </div>
+                                                <ul class="list-ico">
+                                                    <li> <a href="https://maps.google.com/?authuser=0"><span class="bi bi-geo-alt"></span> </a> 4109 South <br> 3rd street , <br> Louisville Ky , 40214 </li>
+                                                    <li><span class="bi bi-phone"></span> 502-302-2840</li>
+                                                    <li><span class="bi bi-envelope"></span> techsport <br> 1024@ <br> protonmail.com</li>
+                                                </ul>
+                                            </div>
+                                            <div class="socials">
+                                                <ul>
+                                                    <li><a href="https://www.linkedin.com/in/jhayke-thompson-919330290/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                                                    <span> Dev Profile</span>
+                                                    <li><a href="https://dev.to/vampeyer"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                                                    <span> X handle</span>
+                                                    <li><a href="@Vampirat3"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section><!-- End Contact Section -->
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">&copy; Copyright <strong>Vampeyer</strong>. All Rights Reserved</p>
+                        <div class="credits">
+
+                            Designed by <a href="https://github.com/vampeyer">Vampeyer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+
+
+
+
+
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="./assets/js/main.js"></script>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+
+    </script>
+
+    <script src="./assets/js/buttonClicker.js"></script>
+
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('vampyr3', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support me',
+            'floating-chat.donateButton.background-color': '#00b9fe',
+            'floating-chat.donateButton.text-color': '#fff',
+            'floating-chat.donateButton.max-width': '50px'
+        });
+    </script>
+</body>
+
+</html>

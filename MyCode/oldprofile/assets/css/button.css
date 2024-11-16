@@ -1,0 +1,96 @@
+
+/*
+mobile-nav-toggle{
+    background-image: url("/assets/img/circle-svgrepo-com.png");
+
+}
+*/
+
+
+.circle {            /*   The x icon   */
+    top:-102px;
+    left: -32.3px;
+   
+    left:-31px;
+    padding-left: 50px;
+    
+}
+
+.circleDisplay2::after { 
+     top:30px;
+     left:40.5px; 
+     bottom:0px;
+
+
+}
+
+
+
+.contactForm input  { 
+
+}
+
+
+/* ---------------*/ 
+
+
+
+
+
+
+.footerContainer { 
+    background-image: url(./assets/img/litupcpu.jpg);
+    background-attachment: fixed;
+    box-shadow: inset  10px 40px 30px  20px rgb(0, 0, 0);
+    min-width: 100%;
+}
+
+/*      */
+
+
+.footerBorders { 
+    border: 2px solid black;
+} 
+
+
+
+.justTheVideo {
+    min-height: 500px;
+}
+
+
+.routeforFading  {    /* AKA the hero heasing */
+
+border: 2px 2px solid red;
+
+}
+
+
+.theDamnButtonIconX {  
+
+top:500px;
+    
+  
+}
+
+
+.progress-bar { 
+    border-radius: 24%;
+    background-color: black;
+    color: blue;
+}
+
+.service-content > p { 
+    font-size: 1rem;;
+}
+ 
+
+.borderHover:hover{ 
+border: 3px solid red;
+}
+
+
+.card-title  { 
+    color: aliceblue;
+    padding:.2rem;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    
+    <main>
+   
+
+     
+
+<!-- Building out my keys , one key at a time  -->
+<div class="top-text" style="padding-top: 50px;   padding-bottom: 50px; "  >
+    <p >Welcome to the JayPiano 9000    </p>
+    <h5><i>Today we are doing the piano , but doing it in 44 keys for a high and low ,  
+        I will be splitting them into two sections of 22 keys a piece for easability. 
+    </i></h5>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="container" style="padding-top: 50px;">
+
+
+    <div style="text-align: center;" >
+        <i style="color: aliceblue;"> Welcome to the Jay piano 9000 , we are currently working on the next version , enjoy ! </i>
+    
+     </div>
+    
+    
+    <div style="text-align: center;" >
+        <img src="./jaypiano9000.png" alt="">
+    </div>
+    
+
+
+
+    <div class="buttonContainer" >
+    <i style="color: aliceblue;"> Hold shift for the second 44 keys. </i>
+<button id="butt-tawn" onclick="clickSwitch()" style="margin-bottom: 50px;">
+<div > 
+<input id="butinput" class="rangeSwitch" type="range"  min="0" max="1" value="0"  
+style="height: 10px; width: 50px;">
+</div>
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Script up me a button flipper for my shift key.  -->
+<script src="./shiftbutton.js">
+
+   
+
+</script>
+
+
+
+
+
+
+
+<div style="padding: 25px;" > 
+<section style="display: flex;" >
+
+<div id="key key1 " data-key="49" class="keynote key1" >1 /1</div>
+<div id="key " class="keynote key2">2/2</div>
+<div id="key " class="keynote key3">3/3</div>
+<div id="key " class="keynote key4">4/4</div>
+<div id="key " class="keynote key5">5/5</div>
+<div id="key " class="keynote key6">6/6</div>
+<div id="key " class="keynote key7">7/7</div>
+<div id="key " class="keynote key8">8/8</div>
+<div id="key " class="keynote key9">9/9</div>
+<div id="key " class="keynote key10">10/0</div>
+<div id="key " class="keynote key11">11/-</div>
+<div id="key " class="keynote key12">12/=</div>
+<div id="key " class="keynote key13">13/q</div>
+<div id="key " class="keynote key14">14/w</div>
+<div id="key " class="keynote key15">15/e</div>
+<div id="key " class="keynote key16">16/r</div>
+<div id="key " class="keynote key17">17/t</div>
+<div id="key " class="keynote key18">18/y</div>
+<div id="key " class="keynote key19">19/u</div>
+<div id="key " class="keynote key20">20/i</div>
+<div id="key " class="keynote key21">21/o</div>
+<div id="key " class="keynote key22">22/p</div>
+
+</section>
+
+
+
+<section style="display: flex;" >
+
+    <div id="key " class="keynote key23">23/[</div>
+    <div id="key " class="keynote key24">24/a</div>
+    <div id="key " class="keynote key25">25/s</div>
+    <div id="key " class="keynote key26">26/d</div>
+    <div id="key " class="keynote key27">27/f</div>
+    <div id="key " class="keynote key28">28/g</div>
+    <div id="key " class="keynote key29">29/h</div>
+    <div id="key " class="keynote key30">30/j</div>
+    <div id="key " class="keynote key31">31/k</div>
+    <div id="key " class="keynote key32">32/l</div>
+    <div id="key " class="keynote key33">33/;</div>
+    <div id="key " class="keynote key34">34/'</div>
+    <div id="key " class="keynote key35">35/z</div>
+    <div id="key " class="keynote key36">36/x</div>
+    <div id="key " class="keynote key37">37/c</div>
+    <div id="key " class="keynote key38">38/v</div>
+    <div id="key " class="keynote key39">39/b</div>
+    <div id="key " class="keynote key40">40/n</div>
+    <div id="key " class="keynote key41">41/m</div>
+    <div id="key " class="keynote key42">42/,</div>
+    <div id="key " class="keynote key43">43/.</div>
+    <div id="key " class="keynote key44">44/ /</div>
+
+
+
+
+
+
+    
+    </section>
+</div>
+
+
+
+
+<div style="padding: 25px;" > 
+    <section style="display: flex;" >
+        <!--  + Indicates with the shift button held down  -->
+        <div id="key " class="keynote key45">45/1+</div>
+        <div id="key " class="keynote key46">46/2+</div>
+        <div id="key " class="keynote key47">47/3+</div>
+        <div id="key " class="keynote key48">48/4+</div>
+        <div id="key " class="keynote key49">49/5+</div>
+        <div id="key " class="keynote key50">50/6+</div>
+        <div id="key " class="keynote key51">51/7+</div>
+        <div id="key " class="keynote key52">52/8+</div>
+        <div id="key " class="keynote key53">53/9+</div>
+        <div id="key " class="keynote key54">54/0+</div>
+        <div id="key " class="keynote key55">55/-+</div>
+        <div id="key " class="keynote key56">56/=+</div>
+        <div id="key " class="keynote key57">57/q+</div>
+        <div id="key " class="keynote key58">58/w+</div>
+        <div id="key " class="keynote key59">59/e+</div>
+        <div id="key " class="keynote key60">60/r=</div>
+        <div id="key " class="keynote key61">61/t+</div>
+        <div id="key " class="keynote key62">62/y+</div>
+        <div id="key " class="keynote key63">63/u+</div>
+        <div id="key " class="keynote key64">64/i+</div>
+        <div id="key " class="keynote key65">65/o+</div>
+        <div id="key " class="keynote key66">66/p+</div>
+    
+    </section>
+    
+    
+    
+    <section style="display: flex;" >
+    
+    <div id="key " class="keynote key67">67/ {+</div>
+    <div id="key " class="keynote key68">68/a+</div>
+    <div id="key " class="keynote key69">69/s+</div>
+    <div id="key " class="keynote key70">70/d+</div>
+    <div id="key " class="keynote key71">71/f+</div>
+    <div id="key " class="keynote key72">72/g+</div>
+    <div id="key " class="keynote key73">73/h+</div>
+    <div id="key " class="keynote key74">74/j+</div>
+    <div id="key " class="keynote key75">75/k+</div>
+    <div id="key " class="keynote key76">76/l+</div>
+    <div id="key " class="keynote key77">77/;+</div>
+    <div id="key " class="keynote key78">78/'+</div>
+    <div id="key " class="keynote key79">79/z+</div>
+    <div id="key " class="keynote key80">80/x+</div>
+    <div id="key " class="keynote key81">81/c+</div>
+    <div id="key " class="keynote key82">82/v+</div>
+    <div id="key " class="keynote key83">83/b+</div>
+    <div id="key " class="keynote key84">84/n+</div>
+    <div id="key " class="keynote key85">85/m+</div>
+    <div id="key " class="keynote key86">86/,+</div>
+    <div id="key " class="keynote key87">87/.+</div>
+    <div id="key " class="keynote key88">88/ /+</div>
+        
+        </section>
+    </div>
+
+
+
+<audio id="sound1" class ="audio"  src="./piano-sound-samples/01-A_2.mp3"></audio>
+<audio id="sound2" class ="audio" src="./piano-sound-samples/02-A_2s.mp3"></audio>
+<audio id="sound3" class ="audio" src="./piano-sound-samples/03-B_2.mp3"></audio>
+<audio id="sound4" class ="audio" src="./piano-sound-samples/04-C_1s-retone.mp3"></audio>
+<audio id="sound5" class ="audio" src="./piano-sound-samples/05-C_1-retone.mp3"></audio>
+<audio id="sound6" class ="audio" src="./piano-sound-samples//06-D_1.mp3"></audio>
+<audio id="sound7" class ="audio" src="./piano-sound-samples/07-D_1s.mp3"></audio>
+<audio id="sound8" class ="audio" src="./piano-sound-samples/08-E_1.mp3"></audio>
+<audio id="sound9" class ="audio" src="./piano-sound-samples/09-F_1.mp3"></audio>
+<audio id="sound10" class ="audio" src="./piano-sound-samples/10-F_1s.mp3"></audio>
+<audio id="sound11" class ="audio" src="./piano-sound-samples/11-G_1.mp3"></audio>
+<audio id="sound12" class ="audio" src="./piano-sound-samples/12-G_1s.mp3"></audio>
+<audio id="sound13" class ="audio" src="./piano-sound-samples/13-A_1.mp3"></audio>
+<audio id="sound14" class ="audio" src="./piano-sound-samples/14-A_1s.mp3"></audio>
+<audio id="sound15" class ="audio" src="./piano-sound-samples/15-B_1.mp3"></audio>
+<audio id="sound16" class ="audio" src="./piano-sound-samples/16-C.mp3"></audio>
+<audio id="sound17" class ="audio" src="./piano-sound-samples/17-Cs.mp3"></audio>
+<audio id="sound18" class ="audio" src="./piano-sound-samples/18-D.mp3"></audio>
+<audio id="sound19" class ="audio" src="./piano-sound-samples/19-Ds.mp3"></audio>
+<audio id="sound20" class ="audio" src="./piano-sound-samples/20-E.mp3"></audio>
+<audio id="sound21" class ="audio" src="./piano-sound-samples/21-F.mp3"></audio>
+<audio id="sound22" class ="audio" src="./piano-sound-samples/22-Fs.mp3"></audio>
+<audio id="sound23" class ="audio" src="./piano-sound-samples/23-G.mp3"></audio>
+<audio id="sound24" class ="audio" src="./piano-sound-samples/24-Gs.mp3"></audio>
+<audio id="sound25" class ="audio" src="./piano-sound-samples/25-A.mp3"></audio>
+<audio id="sound26" class ="audio" src="./piano-sound-samples/26-As.mp3"></audio>
+<audio id="sound27" class ="audio" src="./piano-sound-samples/27-B.mp3"></audio>
+<audio id="sound28" class ="audio" src="./piano-sound-samples/28-cc.mp3"></audio>
+<audio id="sound29" class ="audio" src="./piano-sound-samples/29-ccs.mp3"></audio>
+<audio id="sound30" class ="audio" src="./piano-sound-samples/30-dd.mp3"></audio>
+<audio id="sound31" class ="audio" src="./piano-sound-samples/31-dds.mp3"></audio>
+<audio id="sound32" class ="audio" src="./piano-sound-samples/32-ee.mp3"></audio>
+<audio id="sound33" class ="audio" src="./piano-sound-samples/33-ff.mp3"></audio>
+<audio id="sound34" class ="audio" src="./piano-sound-samples/34-ffs.mp3"></audio>
+<audio id="sound35" class ="audio" src="./piano-sound-samples/35-gg.mp3"></audio>
+<audio id="sound36" class ="audio" src="./piano-sound-samples/36-ggs.mp3"></audio>
+<audio id="sound37" class ="audio" src="./piano-sound-samples/37-aa.mp3"></audio>
+<audio id="sound38" class ="audio" src="./piano-sound-samples/38-aas.mp3"></audio>
+<audio id="sound39" class ="audio" src="./piano-sound-samples/39-bb.mp3"></audio>
+<audio id="sound40" class ="audio" src="./piano-sound-samples/40-cc1.mp3"></audio>
+<audio id="sound41" class ="audio" src="./piano-sound-samples/41-cc1s.mp3"></audio>
+<audio id="sound42" class ="audio" src="./piano-sound-samples/42-d1.mp3"></audio>
+<audio id="sound43" class ="audio" src="./piano-sound-samples/43-d1s.mp3"></audio>
+<audio id="sound44" class ="audio" src="./piano-sound-samples/44-e1.mp3"></audio>
+<audio id="sound45" class ="audio" src="./piano-sound-samples/45-f1.mp3"></audio>
+<audio id="sound46" class ="audio" src="./piano-sound-samples/46-f1s.mp3"></audio>
+<audio id="sound47" class ="audio" src="./piano-sound-samples/47-g1.mp3"></audio>
+<audio id="sound48" class ="audio" src="./piano-sound-samples/48-g1s.mp3"></audio>
+<audio id="sound49" class ="audio" src="./piano-sound-samples/49-a1.mp3"></audio>
+<audio id="sound50" class ="audio" src="./piano-sound-samples/50-a1s.mp3"></audio>
+<audio id="sound51" class ="audio" src="./piano-sound-samples/51-b1.mp3"></audio>
+<audio id="sound52" class ="audio" src="./piano-sound-samples/52-c2.mp3"></audio>
+<audio id="sound53" class ="audio" src="./piano-sound-samples/53-c2s.mp3"></audio>
+<audio id="sound54" class ="audio" src="./piano-sound-samples/54-d2.mp3"></audio>
+<audio id="sound55" class ="audio" src="./piano-sound-samples/55-d2s.mp3"></audio>
+<audio id="sound56" class ="audio" src="./piano-sound-samples/56-e2.mp3"></audio>
+<audio id="sound57" class ="audio" src="./piano-sound-samples/57-f2.mp3"></audio>
+<audio id="sound58" class ="audio" src="./piano-sound-samples/58-f2s.mp3"></audio>
+<audio id="sound59" class ="audio" src="./piano-sound-samples/59-g2.mp3"></audio>
+<audio id="sound60" class ="audio" src="./piano-sound-samples/60-g2s.mp3"></audio>
+<audio id="sound61" class ="audio" src="./piano-sound-samples/61-a2.mp3"></audio>
+<audio id="sound62" class ="audio" src="./piano-sound-samples/62-a2s.mp3"></audio>
+<audio id="sound63" class ="audio" src="./piano-sound-samples/63-b2.mp3"></audio>
+<audio id="sound64" class ="audio" src="./piano-sound-samples/64-c3.mp3"></audio>
+<audio id="sound65" class ="audio" src="./piano-sound-samples/65-c3s.mp3"></audio>
+<audio id="sound66" class ="audio" src="./piano-sound-samples/66-d3.mp3"></audio>
+<audio id="sound67" class ="audio" src="./piano-sound-samples/67-d3s.mp3"></audio>
+<audio id="sound68" class ="audio" src="./piano-sound-samples/68-e3.mp3"></audio>
+<audio id="sound69" class ="audio" src="./piano-sound-samples/69-f3.mp3"></audio>
+<audio id="sound70" class ="audio" src="./piano-sound-samples/70-f3s.mp3"></audio>
+<audio id="sound71" class ="audio" src="./piano-sound-samples/71-g3.mp3"></audio>
+<audio id="sound72" class ="audio" src="./piano-sound-samples/72-g3s.mp3"></audio>
+<audio id="sound73" class ="audio" src="./piano-sound-samples/73-a3.mp3"></audio>
+<audio id="sound74" class ="audio" src="./piano-sound-samples/74-a3s.mp3"></audio>
+<audio id="sound75" class ="audio" src="./piano-sound-samples/75-b3.mp3"></audio>
+<audio id="sound76" class ="audio" src="./piano-sound-samples/76-c4.mp3"></audio>
+<audio id="sound77" class ="audio" src="./piano-sound-samples/77-c4s.mp3"></audio>
+<audio id="sound78" class ="audio" src="./piano-sound-samples/78-d4.mp3"></audio>
+<audio id="sound79" class ="audio" src="./piano-sound-samples/79-d4s.mp3"></audio>
+<audio id="sound80" class ="audio" src="./piano-sound-samples/80-e4.mp3"></audio>
+<audio id="sound81"  class ="audio"src="./piano-sound-samples/81-f4.mp3"></audio>
+<audio id="sound82" class ="audio" src="./piano-sound-samples/82-f4s.mp3"></audio>
+<audio id="sound83" class ="audio" src="./piano-sound-samples/83-g4.mp3"></audio>
+<audio id="sound84" class ="audio" src="./piano-sound-samples/84-g4s.mp3"></audio>
+<audio id="sound85"  class ="audio"src="./piano-sound-samples/85-a4.mp3"></audio>
+<audio id="sound86" class ="audio" src="./piano-sound-samples/86-a4s.mp3"></audio>
+<audio id="sound87" class ="audio" src="./piano-sound-samples/87-b4.mp3"></audio>
+<audio id="sound88" class ="audio" src="./piano-sound-samples/88-c5.mp3"></audio>
+
+
+
+
+</div>
+</main>
+
+
+
+<footer>
+    <div class ="container">
+
+<h5> These notes are made from the 88 standard keys from the piano , and they can use these 
+    keys for multiple instruments , as long as they follow the 88 - key standard. 
+    
+    
+Extending into half notes , requires a 132  note or a 176 note coversion , as to which keyboard can be added if needed for extended tones 
+
+</h5>
+
+</div>
+
+<div class="bg-dark center "  style="text-align: center;" >  
+<p>
+    Created with awesomeness by  <a href="https://github.com/Vampeyer">Vampeyer </a> at <a href=""> Techsport </a>
+</p>
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<script src="./index.js">
+
+</script>
+
+</html>

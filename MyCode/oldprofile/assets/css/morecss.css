@@ -1,0 +1,26 @@
+
+
+
+/* I will be mamually placing some more css here , to work with font viewability 
+in mobile and desktop browsers. */ 
+
+
+a { 
+    text-decoration: aqua;
+}
+
+.ytp-button .ytp-copylink-button { 
+    display: none;
+}
+
+.ytp-chrome-top-buttons { 
+display: none;
+}
+img > .mobile-nav-toggle { 
+    border-radius: 50%;
+}
+
+
+.footerContainer {
+    background-image: url(./litupcpu.jpg);
+}

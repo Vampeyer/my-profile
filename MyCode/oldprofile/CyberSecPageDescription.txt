@@ -1,0 +1,67 @@
+
+
+
+
+
+--- This is a display of both an attack method of over 100 + , 32 bit , exploitable and runable programs that 
+are not defined nor detected by windows defender. Nor will they be any time soon .  
+
+-  In the photographs shown below , you can see a multitude of these programs , that may all run and be easily exploitable 
+on any major windows systems.  
+all programs are 32 bit  - and have a multitude of exploitable flaws. 
+
+- Updates before in the past have failed on several levels , this will surely become something the open sourced 
+community , or a lergeer community may need to tackle. 
+
+
+
+You will notice the programs as follows , from an archived extracted and filtrated .iso file , 
+running without issue , on a windows 10 O.S. , 
+
+- minecraft , mspaint , msspider , and most importantly , a shell. 
+--But not just any shell , a 32 bit , backdoor exploitable shell. backdoor exploitable ,as in , 
+portablly escallatable. 
+
+** The next two images  , if you will carefully note  , the decompilation and exfiltration , of 
+what is a HIGHLY ACTIVE vulnerability currently.  
+
+
+These two images , are an example of the citrix software re-engineering process , the what , the where , how , and when . 
+
+
+
+--- as well as just, 
+for a little extra seasoning ,  a 
+32-bit , webetup.exe file properties being displayed.
+
+
+
+To learn more about the current situation as a whole , just one that one particular software ,  
+ 
+
+you may note these 3 loose references I have found , here  
+
+https://www.greynoise.io/blog/introducing-cve-2023-24489-a-critical-citrix-sharefile-rce-vulnerability
+
+https://support.citrix.com/article/CTX267027/cve201919781-vulnerability-in-citrix-application-delivery-controller-citrix-gateway-and-citrix-sdwan-wanop-appliance
+
+https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-citrix-adc-and-gateway-zero-day-patch-now/
+
+
+Or , just search on any search engine the words  " Cirtix Exploit. " 
+
+-- This is one of many vulnerabilities currently in the open field , and 
+we have to be prepared against all proprietary based attacks. 
+
+
+
+
+---- I will write a blog on this in the future, there are many questions to be asked and ansewred in the security realm of this.   ----
+
+* I also may have or find a few more tricks up my sleeve somewhere if requested. * 
+
+
+
+
+
+ 
